@@ -1,6 +1,6 @@
 # Infinity Tech
 
-Bienvenue sur **Infinity Tech ** !
+Bienvenue sur **Infinity Tech** !
 Ce projet est un site web collaboratif en HTML et CSS dédié au partage des dernières actualités technologiques, tout en offrant un environnement d'apprentissage aux développeurs débutants.
 
 
