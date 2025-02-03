@@ -31,7 +31,7 @@ Ce projet est un site web collaboratif en HTML et CSS dédié au partage des der
 
 ```bash
 git clone https://github.com/votre-utilisateur/infinity-tech-news.git
-cd infinity-tech-news
+cd infinity-tech
 ```
 
 ### 2️⃣ Ouvrir le projet
