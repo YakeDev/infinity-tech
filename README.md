@@ -3,6 +3,10 @@
 Bienvenue sur **Infinity Tech** !
 Ce projet est un site web collaboratif en HTML et CSS dédié au partage des dernières actualités technologiques, tout en offrant un environnement d'apprentissage aux développeurs débutants.
 
+![Aperçu du site](images/template.png)  
+*Capture d'écran du template du site*
+
+---
 
 ## 🎯 Objectifs du Projet
 
@@ -10,6 +14,7 @@ Ce projet est un site web collaboratif en HTML et CSS dédié au partage des der
 - **Encourager l'apprentissage collaboratif** : Permettre aux développeurs débutants de contribuer à un projet réel, d'améliorer leurs compétences et de travailler en équipe.
 - **Créer une communauté engagée** : Offrir un espace d'échange et de partage autour du développement web et des nouvelles technologies.
 
+---
 
 ## 🚀 Fonctionnalités
 
@@ -17,6 +22,7 @@ Ce projet est un site web collaboratif en HTML et CSS dédié au partage des der
 - **Catégories d'actualités** : Organisation des articles en différentes sections (ex. : innovations, gadgets, logiciels, intelligence artificielle, etc.).
 - **Ressources pédagogiques** : Documentation et guides pour aider les débutants à comprendre et à améliorer le code HTML/CSS.
 
+---
 
 ## 🛠️ Technologies Utilisées
 
@@ -24,13 +30,14 @@ Ce projet est un site web collaboratif en HTML et CSS dédié au partage des der
 - **CSS** : Pour la mise en forme et l'esthétique.
 - **Git & GitHub** : Pour la gestion du code et la collaboration entre contributeurs.
 
+---
 
 ## 📥 Installation et Utilisation
 
 ### 1️⃣ Cloner le dépôt
 
 ```bash
-git clone https://github.com/votre-utilisateur/infinity-tech-news.git
+git clone https://github.com/votre-utilisateur/infinity-tech.git
 cd infinity-tech
 ```
 
@@ -42,6 +49,7 @@ cd infinity-tech
 
 - Consultez le [Guide de Contribution](CONTRIBUTING.md) pour savoir comment apporter votre pierre à l'édifice.
 
+---
 
 ## 📂 Structure du Dépôt
 
@@ -50,10 +58,13 @@ infinity-tech/
 ├── index.html         # La page d'accueil
 ├── css/
 │   └── style.css      # La feuille de style principale
+├── images/
+│   └── template.png   # Capture d'écran du template du site
 ├── README.md          # Documentation principale
 └── CONTRIBUTING.md    # Guide pour les contributeurs
 ```
 
+---
 
 ## 📚 Ressources Utiles
 
@@ -61,15 +72,17 @@ infinity-tech/
 - [MDN Web Docs - CSS](https://developer.mozilla.org/fr/docs/Web/CSS)
 - [GitHub Docs](https://docs.github.com/)
 
+---
 
 ## 📜 Licence
 
 Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
 
+---
 
 ## 🤝 Contact et Communauté
 
 Pour toute question ou suggestion, ouvrez une **issue** sur GitHub ou rejoignez notre communauté sur **Whatsapp**.
 
-**📧 Contact :** [Groupe Whatsapp](https://chat.whatsapp.com/K8wO1TRAN0Z8FsFhIBfrpl)
+**📧 Contact :** Rejoignez notre [groupe WhatsApp ici](https://github.com/YakeDev/infinity-tech)
 
