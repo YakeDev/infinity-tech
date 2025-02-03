@@ -6,7 +6,7 @@ Ce projet est un site web collaboratif en HTML et CSS dédié au partage des der
 ![Aperçu du site](images/template.jpg)  
 _Capture d'écran du template du site_
 
----
+
 
 ## 🎯 Objectifs du Projet
 
@@ -14,7 +14,7 @@ _Capture d'écran du template du site_
 - **Encourager l'apprentissage collaboratif** : Permettre aux développeurs débutants de contribuer à un projet réel, d'améliorer leurs compétences et de travailler en équipe.
 - **Créer une communauté engagée** : Offrir un espace d'échange et de partage autour du développement web et des nouvelles technologies.
 
----
+
 
 ## 🚀 Fonctionnalités
 
@@ -22,7 +22,6 @@ _Capture d'écran du template du site_
 - **Catégories d'actualités** : Organisation des articles en différentes sections (ex. : innovations, gadgets, logiciels, intelligence artificielle, etc.).
 - **Ressources pédagogiques** : Documentation et guides pour aider les débutants à comprendre et à améliorer le code HTML/CSS.
 
----
 
 ## 🛠️ Technologies Utilisées
 
@@ -30,7 +29,7 @@ _Capture d'écran du template du site_
 - **CSS** : Pour la mise en forme et l'esthétique.
 - **Git & GitHub** : Pour la gestion du code et la collaboration entre contributeurs.
 
----
+
 
 ## 📥 Installation et Utilisation
 
@@ -49,7 +48,20 @@ cd infinity-tech
 
 - Consultez le [Guide de Contribution](CONTRIBUTING.md) pour savoir comment apporter votre pierre à l'édifice.
 
----
+### 4️⃣ Mettre à jour son dépôt local
+
+Pour récupérer les dernières mises à jour du projet effectuées par d'autres contributeurs, suivez ces étapes :
+```bash
+git checkout main  # Assurez-vous d'être sur la branche principale
+git pull origin main  # Récupérez les dernières modifications du dépôt distant
+```
+Si vous travaillez sur une branche spécifique, vous pouvez fusionner les mises à jour dans votre branche :
+```bash
+git checkout votre-branche
+git merge main  # Fusionner les nouvelles modifications dans votre branche
+```
+
+
 
 ## 📂 Structure du Dépôt
 
@@ -64,7 +76,7 @@ infinity-tech/
 └── CONTRIBUTING.md    # Guide pour les contributeurs
 ```
 
----
+
 
 ## 📚 Ressources Utiles
 
@@ -72,13 +84,13 @@ infinity-tech/
 - [MDN Web Docs - CSS](https://developer.mozilla.org/fr/docs/Web/CSS)
 - [GitHub Docs](https://docs.github.com/)
 
----
+
 
 ## 📜 Licence
 
 Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
 
----
+
 
 ## 🤝 Contact et Communauté
 
