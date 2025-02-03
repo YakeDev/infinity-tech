@@ -3,8 +3,8 @@
 Bienvenue sur **Infinity Tech** !
 Ce projet est un site web collaboratif en HTML et CSS dédié au partage des dernières actualités technologiques, tout en offrant un environnement d'apprentissage aux développeurs débutants.
 
-![Aperçu du site](images/template.png)  
-*Capture d'écran du template du site*
+![Aperçu du site](images/template.jpg)  
+_Capture d'écran du template du site_
 
 ---
 
@@ -85,4 +85,3 @@ Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plu
 Pour toute question ou suggestion, ouvrez une **issue** sur GitHub ou rejoignez notre communauté sur **Whatsapp**.
 
 **📧 Contact :** Rejoignez notre [groupe WhatsApp ici](https://github.com/YakeDev/infinity-tech)
-
