@@ -71,8 +71,5 @@ Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plu
 
 Pour toute question ou suggestion, ouvrez une **issue** sur GitHub ou rejoignez notre communauté sur **Whatsapp**.
 
-**📧 Contact :** [Votre email ou lien vers un forum/serveur Discord]
-
-\
-
+**📧 Contact :** [Groupe Whatsapp](https://chat.whatsapp.com/K8wO1TRAN0Z8FsFhIBfrpl)
 
