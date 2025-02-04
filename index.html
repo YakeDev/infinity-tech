@@ -1,139 +1,117 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Infinity Tech</title>
-		<link rel="stylesheet" href="css/style.css" />
-		<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-		<script defer>
-			// Vérifie les préférences système et applique le mode sombre si nécessaire
-			if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-				document.documentElement.classList.add('dark')
-			}
-		</script>
-	</head>
-	<body>
-		<header>
-			<nav class="bg-white dark:bg-gray-800 shadow-md">
-				<div class="container mx-auto px-4">
-					<div class="flex justify-between items-center py-4">
-						<!-- Logo -->
-						<div class="text-lg font-bold text-green-600 dark:text-green-400">
-							Infinity Tech
-						</div>
 
-						<!-- Menu Desktop -->
-						<div class="hidden md:flex space-x-6">
-							<a
-								href="#"
-								class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400"
-								>Home</a
-							>
-							<a
-								href="#"
-								class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400"
-								>About Us</a
-							>
-							<a
-								href="#"
-								class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400"
-								>Features</a
-							>
-							<a
-								href="#"
-								class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400"
-								>Services</a
-							>
-							<a
-								href="#"
-								class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400"
-								>Contact</a
-							>
-						</div>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Infinity Tech</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+	<script defer>
+		// Vérifie les préférences système et applique le mode sombre si nécessaire
+		if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			document.documentElement.classList.add('dark')
+		}
+	</script>
+</head>
 
-						<!-- Boutons Desktop -->
-						<div class="hidden md:flex space-x-4">
-							<button
-								class="px-4 py-2 text-gray-700 dark:text-gray-300 border rounded-full">
-								Log in
-							</button>
-							<button
-								class="px-4 py-2 bg-green-500 text-white dark:bg-green-600 rounded-full">
-								Get in touch
-							</button>
-						</div>
-
-						<!-- Menu Burger (Mobile) -->
-						<button
-							id="menu-btn"
-							class="md:hidden text-gray-700 dark:text-gray-300 focus:outline-none">
-							<svg
-								class="w-6 h-6"
-								fill="none"
-								stroke="currentColor"
-								stroke-width="2"
-								viewBox="0 0 24 24">
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									d="M4 6h16M4 12h16m-7 6h7" />
-							</svg>
-						</button>
+<body>
+	<header>
+		<nav class="bg-white dark:bg-gray-800 shadow-md">
+			<div class="container mx-auto px-4">
+				<div class="flex justify-between items-center py-4">
+					<!-- Logo -->
+					<div class="text-lg font-bold text-green-600 dark:text-green-400">
+						Infinity Tech
 					</div>
 
-					<!-- Menu Mobile (Caché par défaut) -->
-					<div
-						id="mobile-menu"
-						class="hidden md:hidden flex flex-col space-y-4 pb-4">
-						<a
-							href="#"
-							class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400"
-							>Home</a
-						>
-						<a
-							href="#"
-							class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400"
-							>About Us</a
-						>
-						<a
-							href="#"
-							class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400"
-							>Features</a
-						>
-						<a
-							href="#"
-							class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400"
-							>Services</a
-						>
-						<a
-							href="#"
-							class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400"
-							>Contact</a
-						>
-						<button
-							class="px-4 py-2 text-gray-700 dark:text-gray-300 border rounded-full">
+					<!-- Menu Desktop -->
+					<div class="hidden md:flex space-x-6">
+						<a href="#"
+							class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400">Home</a>
+						<a href="#"
+							class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400">About
+							Us</a>
+						<a href="#"
+							class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400">Features</a>
+						<a href="#"
+							class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400">Services</a>
+						<a href="#"
+							class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400">Contact</a>
+					</div>
+
+					<!-- Boutons Desktop -->
+					<div class="hidden md:flex space-x-4">
+						<button class="px-4 py-2 text-gray-700 dark:text-gray-300 border rounded-full">
 							Log in
 						</button>
-						<button
-							class="px-4 py-2 bg-green-500 text-white dark:bg-green-600 rounded-full">
+						<button class="px-4 py-2 bg-green-500 text-white dark:bg-green-600 rounded-full">
 							Get in touch
 						</button>
 					</div>
-				</div>
-			</nav>
-		</header>
-		<main>
-			<h1 class="text-3xl font-bold underline">Hello world!</h1>
-			<p class="text-lg">
-				Bienvenue sur Infinity Tech News, le site qui vous permet de suivre
-				l'actualité de la tech en temps réel.
-			</p>
-		</main>
-		<footer>
-			<p>© 2025 Infinity Tech</p>
-		</footer>
 
-		<script src="js/script.js"></script>
-	</body>
+					<!-- Menu Burger (Mobile) -->
+					<button id="menu-btn" class="md:hidden text-gray-700 dark:text-gray-300 focus:outline-none">
+						<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+						</svg>
+					</button>
+				</div>
+
+				<!-- Menu Mobile (Caché par défaut) -->
+				<div id="mobile-menu" class="hidden md:hidden flex flex-col space-y-4 pb-4">
+					<a href="#home"
+						class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400">Home</a>
+					<a href="#"
+						class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400">About
+						Us</a>
+					<a href="#"
+						class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400">Features</a>
+					<a href="#"
+						class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400">Services</a>
+					<a href="#"
+						class="text-gray-700 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400">Contact</a>
+					<button class="px-4 py-2 text-gray-700 dark:text-gray-300 border rounded-full">
+						Log in
+					</button>
+					<button class="px-4 py-2 bg-green-500 text-white dark:bg-green-600 rounded-full">
+						Get in touch
+					</button>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<!-- ==================================== Hero-section ====================================== -->
+		<section class="relative bg-slate-100 py-6" id="home">
+			<div class="relative pt-28 lg:pt-28 mb-28">
+				<div class="mx-auto px-6 max-w-7xl md:px-12">
+					<div class="text-center sm:mx-auto sm:w-10/12 lg:mr-auto lg:mt-0 lg:w-4/5">
+						<h1
+							class="mt-20 text-wrap text-4xl md:text-5xl font-semibold text-title xl:text-5xl xl:[line-height:1.125]">
+							Hello world!</h1>
+						<p class="text-wrap mx-auto mt-8 max-w-2xl text-lg hidden mb-12 sm:block text-body">Bienvenue
+							sur Infinity Tech News, le site qui vous permet de suivre
+							l'actualité de la tech en temps réel.
+						</p>
+						<div class="mt-10 flex flex-col items-center justify-center gap-4">
+							<div class="mb-28">
+								<a href="#">
+									<span class="px-4 py-2 relative z-10 bg-green-500 text-white dark:bg-green-600 rounded-full">Get in touch</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ==================================== FIn Hero-section ====================================== -->
+	</main>
+	<footer>
+		<p>© 2025 Infinity Tech</p>
+	</footer>
+
+	<script src="js/script.js"></script>
+</body>
+
 </html>
